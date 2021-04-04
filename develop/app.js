@@ -46,13 +46,14 @@ const init = async () => {
         if (employees.length > 0) {
             if (fs.existsSync(OUTPUT_DIR)) {
                 return fs.writeFileSync(outputPath, render(employees), )
-            } else {
-                return fs.mkdir(OUTPUT_DIR, err => {
-                    if(err) throw err;
-    
-                    return fs.writeFileSync(outputPath, render(employees))
-                })
             }
+            //  else {
+        //         return fs.mkdir(OUTPUT_DIR, err => {
+        //             if(err) throw err;
+    
+        //             return fs.writeFileSync(outputPath, render(employees))
+        //         })
+        //     }
         }
     }
 }
@@ -86,7 +87,7 @@ const initEmployee = async () => {
             init()
             break;
         default:
-            console.log("No Default")
+            
     }
 }
 
