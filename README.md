@@ -2,7 +2,7 @@
 
 Created by McKerry Wimberly II
 
-To start this program you enter the command "node app.js" in youre terminal.
+To start this program you enter the command "node app.js" in youre terminal. make sure that you are in the Develop folder as that is where all files are.
 
 From there you will be promted to add a new employee, either Y/N.
 
