@@ -47,13 +47,6 @@ const init = async () => {
             if (fs.existsSync(OUTPUT_DIR)) {
                 return fs.writeFileSync(outputPath, render(employees), )
             }
-            //  else {
-        //         return fs.mkdir(OUTPUT_DIR, err => {
-        //             if(err) throw err;
-    
-        //             return fs.writeFileSync(outputPath, render(employees))
-        //         })
-        //     }
         }
     }
 }
